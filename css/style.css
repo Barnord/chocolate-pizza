@@ -1,21 +1,44 @@
 body * {
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 body {
-  width: 80%;
+  width: 900px;
   margin: 0 auto;
 }
 
 header {
   height: 15%;
   width: 100%;
+  display: flex;
+  border-image-source: url(/img/hr-img.png);
+  border-image-repeat: repeat;
+  border-bottom: 10px;
 }
+
+#divcolumn {
+  width: 600px;
+  font-size: xx-small;
+}
+
+
+.hrimg {
+  height: 10px;
+  width: 100%;
+  background-image: url(/img/hr-img.png);
+  margin-top: 25px;
+}
+
 
 #logo {
   display: flex;
   align-items: center;
   height: 10%;
+}
+
+#print {
+  display: flex;
+  float: right;
 }
 
 h1 {
@@ -31,13 +54,33 @@ h2 {
 
 h4 {
   color: darkgrey;
+  display: inline-block;
 }
+
+main p {
+  /* margin: 20px; */
+  font-size:large;
+  line-height: 20px;
+  width: 100%;
+}
+
+#pizza {
+  margin-top: 50px;
+}
+
 
 #social {
   display: flex;
   align-items: center;
-  justify-content: right;
+  float: right;
+  margin-left: 45px;
+  
 }
+
+#social a {
+  padding: 0px 1px;
+}
+
 
 #spacer {
   margin-left: 5px;
@@ -57,8 +100,12 @@ ul {
   padding-left: 50px;
   font-size: 1.5em;
   padding-top: 30px;
-  
+  color: rgb(128, 95, 60);
 }
+
+.lined {
+  text-decoration: line-through;
+  }
 
 li {
   padding-top: 5px;
@@ -82,11 +129,19 @@ h3 {
   float: right;
 }
 
+#bio {
+  height: 25px;
+}
+
 button {
   background-color: rgb(212, 114, 87);
   color: white;
   height: 3em;
   align-items: center;
+}
+
+main>article {
+  margin-bottom: 20px;
 }
 
 article p {
@@ -96,4 +151,5 @@ article p {
 footer {
   color: darkgrey;
   text-align: center;
+  margin-top: 90px;
 }
