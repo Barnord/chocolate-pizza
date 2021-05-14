@@ -1,0 +1,49 @@
+body * {
+  border: 1px red solid;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'yellowtail' cursive;
+}
+
+header {
+  height: 15%;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#spacer {
+  margin-left: 5px;
+}
+
+#ingredients {
+  background-image: url(/img/list-bg.png);
+  display: flex;
+}
+
+ul {
+  font-family: 'yellowtail' cursive;
+}
+
+#bio {
+  display: flex;
+}
+
+button {
+  background-color: darkred;
+  color: white;
+  height: 3em;
+}
